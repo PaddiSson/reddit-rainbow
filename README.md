@@ -37,3 +37,9 @@ No personal data is collected, shared, or sent. All information remains on your 
 ## License
 
 This project is royalty-free. See the [LICENSE.md](LICENSE.md) file for more information.
+
+---
+
+## Donate
+
+Would you like to contribute to the development costs? Make a [donation](https://www.paypal.com/donate/?hosted_button_id=SZVX8U7PYP8ME)
