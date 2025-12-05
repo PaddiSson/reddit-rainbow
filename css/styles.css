@@ -1,0 +1,39 @@
+:root {
+  /* Pastels */
+  --pastel-factor: 1;
+  --pastel-r: 255; --pastel-g: 255; --pastel-b: 255;
+  /* Colors */
+  --color-0-r: 250; --color-0-g: 40; --color-0-b: 30;
+  --color-1-r: 250; --color-1-g: 130; --color-1-b: 30;
+  --color-2-r: 250; --color-2-g: 220; --color-2-b: 30;
+  --color-3-r: 40; --color-3-g: 250; --color-3-b: 30;
+  --color-4-r: 30; --color-4-g: 230; --color-4-b: 240;
+  --color-5-r: 40; --color-5-g: 100; --color-5-b: 240;
+  --color-6-r: 230; --color-6-g: 60; --color-6-b: 230;
+}
+
+.text-alienblue-600 {
+  color: #115bca !important;
+}
+
+.comment-color-0,
+.comment-color-1,
+.comment-color-2,
+.comment-color-3,
+.comment-color-4,
+.comment-color-5,
+.comment-color-6 {
+  --color-tone-4: rgb(
+    calc(var(--color-r) * (1 - var(--pastel-factor)) + var(--pastel-r) * var(--pastel-factor)),
+    calc(var(--color-g) * (1 - var(--pastel-factor)) + var(--pastel-g) * var(--pastel-factor)),
+    calc(var(--color-b) * (1 - var(--pastel-factor)) + var(--pastel-b) * var(--pastel-factor))
+  );
+}
+
+.comment-color-0 { --color-r: var(--color-0-r); --color-g: var(--color-0-g); --color-b: var(--color-0-b); }
+.comment-color-1 { --color-r: var(--color-1-r); --color-g: var(--color-1-g); --color-b: var(--color-1-b); }
+.comment-color-2 { --color-r: var(--color-2-r); --color-g: var(--color-2-g); --color-b: var(--color-2-b); }
+.comment-color-3 { --color-r: var(--color-3-r); --color-g: var(--color-3-g); --color-b: var(--color-3-b); }
+.comment-color-4 { --color-r: var(--color-4-r); --color-g: var(--color-4-g); --color-b: var(--color-4-b); }
+.comment-color-5 { --color-r: var(--color-5-r); --color-g: var(--color-5-g); --color-b: var(--color-5-b); }
+.comment-color-6 { --color-r: var(--color-6-r); --color-g: var(--color-6-g); --color-b: var(--color-6-b); }
