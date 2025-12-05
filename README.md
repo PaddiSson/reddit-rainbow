@@ -37,9 +37,3 @@ No personal data is collected, shared, or sent. All information remains on your 
 ## License
 
 This project is royalty-free. See the [LICENSE.md](LICENSE.md) file for more information.
-
----
-
-## Contact
-
-If you have any questions/bug, please [contact us](vincent.dapp@free.fr) by email.
