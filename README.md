@@ -2,6 +2,8 @@
 
 Reddit Rainbow is a browser extension that improves the readability of Reddit by coloring nested comments with rainbow colors. It also highlights comments from the original poster (OP).
 
+![Reddit Rainbow](img/reddit-rainbow-1-mini.png)
+
 ---
 
 ## Features
