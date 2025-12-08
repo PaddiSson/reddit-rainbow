@@ -22,10 +22,10 @@ function loadSavedSettings() {
   return new Promise((resolve) => {
     chrome.storage.local.get(['pastelFactor'], (result) => {
       let pastelFactor;
-      if (result.pastelFactor === undefined) pastelFactor = 1
+      if (result.pastelFactor === undefined) pastelFactor = 0.25
       else pastelFactor = result.pastelFactor;
       document.documentElement.style.setProperty('--pastel-factor', pastelFactor);
-      console.log('[Reddit Rainbow] Pastel factor loaded:', pastelFactor);
+      //console.log('[Reddit Rainbow] Pastel factor loaded:', pastelFactor);
       resolve(pastelFactor);
     });
   });

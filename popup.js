@@ -50,6 +50,7 @@ function handleIntensityChange(event) {
 
   // Update slider value display
   updateIntensityDisplay(event.target.value);
+  //console.log("Pastel factor set :", pastelFactor);
 
   chrome.storage.local.set({ pastelFactor });
 
