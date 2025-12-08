@@ -9,11 +9,10 @@
       }
     }
   },
-  "version": "0.8.5",
+  "version": "0.8.6",
   "description": "Improve nested comments with rainbow colors for better readability and highlight comments from the original poster (OP).",
   "permissions": [
-    "storage",
-    "https://www.reddit.com/*"
+    "storage"
   ],
   "content_scripts": [
     {
