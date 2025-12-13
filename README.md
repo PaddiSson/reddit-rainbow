@@ -4,6 +4,8 @@ Reddit Rainbow is a browser extension that improves the readability of Reddit by
 
 ![Reddit Rainbow](img/reddit-rainbow-1-mini.png)
 
+- [Firefox add-on](https://addons.mozilla.org/firefox/addon/reddit-rainbow/)
+
 ---
 
 ## Features
